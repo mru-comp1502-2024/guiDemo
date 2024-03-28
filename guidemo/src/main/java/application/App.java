@@ -26,6 +26,11 @@ public class App extends Application {
         stage.show();
     }
 
+    @Override
+    public void stop() {
+        System.out.println("stopping!");
+    }
+
     public static void main(String[] args) {
         launch();
     }
